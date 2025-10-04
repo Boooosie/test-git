@@ -9,4 +9,9 @@ public class UserController {
     public String register() {
         return "注册成功";
     }
+
+    @GetMapping("/login")
+    public String login() {
+        return "登录成功";
+    }
 }
